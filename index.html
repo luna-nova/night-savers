@@ -5,6 +5,13 @@
     <title>Night-Savers</title>
     <!-- Stylesheets -->
     <link rel="stylesheet" href="style.css">
+    <!--
+    <link rel="stylesheet" media="screen and (min-width: 800px)" href="./css/800.css" />
+    <link rel="stylesheet" media="screen and (min-width: 450px) and (max-width: 799px)" href="./css/450.css" />
+    <link rel="stylesheet" media="screen and (max-width: 449px)" href="./css/mobile.css" />
+    -->
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=NTR' rel='stylesheet' type='text/css'>
     <!-- External Libraries -->
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
@@ -14,7 +21,40 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-route.min.js"></script>
   </head>
-  <body>
-    
+  <body id="background">
+    <main id="main-strip" class="font-ntr">
+      <!-- Main four sections of the website -->
+      <section class="main-section">
+        <div id="night-savers-logo">
+          <img src="./images/lunanovalogo.png" alt="Logo of a crescent moon"/>
+        </div>
+        <h1 class="title">LUNANOVA</h1>
+        <hr>
+        <p>Living and breathing the tinker lifestyle.</p>
+      </section>
+      <!-- Music Section -->
+      <section class="main-section music">
+        <div class="music-entry">
+          <img src="http://lorempixel.com/100/100/" alt=""/>
+          <p>This is sample text for a music entry.</p>
+        </div>
+        <div class="music-entry">
+          <img src="http://lorempixel.com/100/100/" alt=""/>
+          <p>This is sample text for a music entry.</p>
+        </div>
+        <div class="music-entry">
+          <img src="http://lorempixel.com/100/100/" alt=""/>
+          <p>This is sample text for a music entry.</p>
+        </div>
+      </section>
+      <!-- Coding Section -->
+      <section class="main-section code">
+
+      </section>
+      <!-- Games Section -->
+      <section class="main-section games">
+
+      </section>
+    </main>
   </body>
 </html>

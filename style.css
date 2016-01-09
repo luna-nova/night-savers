@@ -1,0 +1,42 @@
+#background {
+  background-image: url("./images/nightskyline.png");
+}
+
+#main-strip {
+  background-color: rgba(15, 15, 15, 0.40);
+  margin-top: 10%;
+  width: 100%;
+  height: 200px;
+  color: white;
+  /*Flex styling*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+#night-savers-logo {
+  margin: 0 auto;
+}
+.main-section {
+  flex-grow: 1;
+  overflow: scroll;
+  padding: 8px;
+}
+
+.main-section:first-child {
+  text-align: center;
+}
+
+.main-section + .main-section {
+  border-right: 2px rgba(102, 102, 102, 0.73);
+}
+
+.title {
+  margin-top: 2%;
+}
+
+.font-ntr {
+  font-family: 'NTR', sans-serif;
+}
