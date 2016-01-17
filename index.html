@@ -3,13 +3,6 @@
   <head>
     <meta name="viewport" content="width=device-width" charset="utf-8">
     <title>Night-Savers</title>
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="style.css">
-    <!--
-    <link rel="stylesheet" media="screen and (min-width: 800px)" href="./css/800.css" />
-    <link rel="stylesheet" media="screen and (min-width: 450px) and (max-width: 799px)" href="./css/450.css" />
-    <link rel="stylesheet" media="screen and (max-width: 449px)" href="./css/mobile.css" />
-    -->
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=NTR' rel='stylesheet' type='text/css'>
     <!-- External Libraries -->
@@ -20,41 +13,62 @@
     <!-- External Frameworks -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-route.min.js"></script>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <!--
+    <link rel="stylesheet" media="screen and (min-width: 800px)" href="./css/800.css" />
+    <link rel="stylesheet" media="screen and (min-width: 450px) and (max-width: 799px)" href="./css/450.css" />
+    <link rel="stylesheet" media="screen and (max-width: 449px)" href="./css/mobile.css" />
+    -->
+    <!-- Scripts -->
+    <script src="./action.js"></script>
   </head>
   <body id="background">
+    <!-- Main four sections of the website -->
     <main id="main-strip" class="font-ntr">
-      <!-- Main four sections of the website -->
-      <section class="main-section">
+
+      <!-- INTRO SECTION -->
+      <section class="main-section" id="main">
         <div id="night-savers-logo">
-          <img src="./images/lunanovalogo.png" alt="Logo of a crescent moon"/>
+          <img src="./images/lunanovalogowhite.png" alt="Logo of a crescent moon"/>
         </div>
         <h1 class="title">LUNANOVA</h1>
-        <hr>
+        <hr class="title-line">
         <p>Living and breathing the tinker lifestyle.</p>
       </section>
-      <!-- Music Section -->
-      <section class="main-section music">
-        <div class="music-entry">
-          <img src="http://lorempixel.com/100/100/" alt=""/>
-          <p>This is sample text for a music entry.</p>
-        </div>
-        <div class="music-entry">
-          <img src="http://lorempixel.com/100/100/" alt=""/>
-          <p>This is sample text for a music entry.</p>
-        </div>
-        <div class="music-entry">
-          <img src="http://lorempixel.com/100/100/" alt=""/>
-          <p>This is sample text for a music entry.</p>
-        </div>
-      </section>
-      <!-- Coding Section -->
-      <section class="main-section code">
 
+      <!-- MUSIC SECTION -->
+      <section class="main-section info" id="music">
+        <h2 class="section-title">MUSIC</h2>
+        <div class="cover"></div>
+        <div class="music-entry group">
+          <img src="http://lorempixel.com/100/100/" alt=""/>
+          <h3>Nattura Musica</h3>
+          <p>This OST was designed for my own custom Dungeons & Dragons campaign called "Nattura".
+            You can visit here to hear the album on Bandcamp.</p>
+        </div>
+        <div class="music-entry group">
+          <img src="http://lorempixel.com/100/100/" alt=""/>
+          <p>This is sample text for a music entry.</p>
+        </div>
+        <div class="music-entry group">
+          <img src="http://lorempixel.com/100/100/" alt=""/>
+          <p>This is sample text for a music entry.</p>
+        </div>
       </section>
-      <!-- Games Section -->
-      <section class="main-section games">
 
+      <!-- CODING SECTION -->
+      <section class="main-section info" id="code">
+        <h2 class="section-title">CODE</h2>
+        <div class="cover"></div>
+        <p>I recently started learning computer programming and web design, and I am current enrolled in an IT and business training program focusing on front end web development and business intelligence.</p>
+        <p>Here is a link to my github: <a target="_blank" href="https://github.com/luna-nova">https://github.com/luna-nova</a></p>
+        <p>I am also working on getting my nanodegree from Udacity.</p>
       </section>
+      <!-- TODO: GAMES SECTION -->
+      <!-- <section class="main-section games">
+        <h2>Games</h2>
+      </section> -->
     </main>
   </body>
 </html>
