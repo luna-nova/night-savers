@@ -1,7 +1,7 @@
 
 /********************************************
-Tag Resets
-********************************************/
+=================Tag Resets==================
+*********************************************/
 
 body,
 div,
@@ -51,6 +51,8 @@ a:active {
     font-weight: normal;
 }
 
+/*=======PRESETS=======*/
+
 #background {
   background-image: url("./images/twinklesky.gif");
 }
@@ -59,19 +61,21 @@ a:active {
   display: none;
 }
 
-/*---CLEARFIX---*/
+/*---clearfix---*/
 .group:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/*---FONTS---*/
+/*---fonts---*/
 .font-ntr {
   font-family: 'NTR', sans-serif;
 }
 
-/*===========MAIN-BAR==============*/
+/*==================================*/
+/*============MAIN BAR==============*/
+/*==================================*/
 
 #main-strip {
   background-color: rgba(150, 150, 150, 0.50);
@@ -97,7 +101,9 @@ a:active {
   background-color: rgba(0, 0, 0, 0);
 }
 
-/*========INTRO SECTION==========*/
+/*==================================*/
+/*==========INTRO SECTION===========*/
+/*==================================*/
 
 #main {
   text-align: center;
@@ -120,7 +126,9 @@ a:active {
   box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.5);
 }
 
-/*==========MUSIC SECTION==========*/
+/*===================================*/
+/*===========MUSIC SECTION===========*/
+/*===================================*/
 
 .music-entry {
   margin-bottom: 12px;
