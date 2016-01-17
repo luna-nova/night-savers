@@ -1,0 +1,146 @@
+
+/********************************************
+=================Tag Resets==================
+*********************************************/
+
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+pre,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+th,
+td,
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #000000;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+/*=======PRESETS=======*/
+
+#background {
+  background-image: url("./images/twinklesky.gif");
+}
+
+#music, #code {
+  display: none;
+}
+
+/*---clearfix---*/
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*---fonts---*/
+.font-ntr {
+  font-family: 'NTR', sans-serif;
+}
+
+/*==================================*/
+/*============MAIN BAR==============*/
+/*==================================*/
+
+#main-strip {
+  margin-top: 100px;
+  width: 250px;
+  color: black;
+  font-size: 16px;
+}
+
+.main-section {
+  overflow: hidden;
+  padding: 16px;
+  height: 200px;
+}
+
+#night-savers-logo {
+  margin: 0 auto;
+}
+
+#init-cover {
+  position: absolute;
+  height: 200px;
+  max-width: 250px;
+}
+
+.cover {
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.50);
+}
+
+/*==================================*/
+/*==========INTRO SECTION===========*/
+/*==================================*/
+
+#main {
+  text-align: center;
+  flex-grow: 4;
+  max-width: 250px;
+  min-width: 250px;
+}
+
+.title {
+  margin-top: 7%;
+}
+
+.title-line {
+  border: 1px solid rgba(0, 0, 0, 1);
+  margin-bottom: 5%;
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.5);
+}
+
+/*===================================*/
+/*===========MUSIC SECTION===========*/
+/*===================================*/
+
+#music, #code {
+  flex-grow: 2;
+}
+
+.music-entry {
+  margin-bottom: 12px;
+}
+
+.music-entry img {
+  float: left;
+  margin-right: 8px;
+}
