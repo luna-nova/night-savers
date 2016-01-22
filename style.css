@@ -100,6 +100,10 @@ a:active {
   max-width: 250px;
 }
 
+.section-title {
+  text-align: center;
+}
+
 .cover {
   height: 200px;
   background-color: rgba(0, 0, 0, 0.50);
