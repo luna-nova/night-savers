@@ -116,6 +116,10 @@ a:active {
   margin: 0 auto;
 }
 
+#night-savers-logo img {
+  border-radius: 100px;
+}
+
 #main {
   text-align: center;
   flex-grow: 4;
@@ -135,8 +139,8 @@ a:active {
   box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.5);
 }
 
-.night-savers-logo {
-  -webkit-animation: glow .5s infinite alternate;
+.glowing {
+  -webkit-animation: glow .8s infinite alternate;
 }
 
 @-webkit-keyframes glow {

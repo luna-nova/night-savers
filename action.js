@@ -7,6 +7,7 @@ $(document).ready(function() {
   $("#night-savers-logo").one("mouseenter", function(e) {
     $("#main-strip").animate({backgroundColor: "rgba(150, 150, 150, 0.50)"});
     $("#wrap").fadeIn();
+    $(this).find("img").removeClass("glowing");
   }).one("mouseleave", function(e) {
     $("#main-strip").animate({width: "100%"}, 1000, function() {
       $("#main-strip").css({
