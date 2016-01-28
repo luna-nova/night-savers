@@ -35,7 +35,7 @@ $(document).ready(function() {
   $(".info").hover(function() {
     var el = $(this);
     if (initAnimation === true) {
-      el.find(".section-title").slideUp("slow", function() {
+      el.find(".section-title").stop().slideUp("slow", function() {
         el.css({"overflow": "scroll"});
       });
     }
@@ -43,7 +43,7 @@ $(document).ready(function() {
     var el = $(this);
     if (initAnimation === true) {
       el.css({"overflow": "hidden"}).animate({scrollTop: 0}, "slow");
-      el.find(".section-title").slideDown("slow");
+      el.find(".section-title").stop().slideDown("slow");
     }
   });
 

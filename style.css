@@ -79,6 +79,7 @@ a:active {
 
 #main-strip {
   margin-top: 100px;
+  max-width: 1500px;
   width: 250px;
   color: black;
   font-size: 16px;
@@ -89,6 +90,10 @@ a:active {
   max-height: 100%;
   padding: 16px;
   height: 200px;
+}
+
+#music, #code {
+  flex-grow: 2;
 }
 
 #init-cover {
@@ -146,23 +151,26 @@ a:active {
 /*===========MUSIC SECTION===========*/
 /*===================================*/
 
-#music, #code {
-  flex-grow: 2;
-}
-
-.music-entry {
-  margin-bottom: 12px;
-}
-
-.music-entry:last-child {
-  margin-bottom: 0px;
+#music {
+  min-width: 350px;
 }
 
 .music-entry img {
   float: left;
-  margin-right: 8px;
+  margin-right: 12px;
+}
+
+.music-line {
+  border: 1px dotted rgba(44, 45, 44, 0.57);
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 /*==================================*/
 /*===========CODE SECTION===========*/
 /*==================================*/
+
+#code {
+  min-width: 250px;
+  max-width: 500px;
+}
