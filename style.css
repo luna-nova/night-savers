@@ -86,12 +86,9 @@ a:active {
 
 .main-section {
   overflow: hidden;
+  max-height: 100%;
   padding: 16px;
   height: 200px;
-}
-
-#night-savers-logo {
-  margin: 0 auto;
 }
 
 #init-cover {
@@ -102,16 +99,17 @@ a:active {
 
 .section-title {
   text-align: center;
-}
-
-.cover {
-  height: 200px;
-  background-color: rgba(0, 0, 0, 0.50);
+  margin-top: 60px;
+  margin-bottom: 91px;
 }
 
 /*==================================*/
 /*==========INTRO SECTION===========*/
 /*==================================*/
+
+#night-savers-logo {
+  margin: 0 auto;
+}
 
 #main {
   text-align: center;
@@ -132,6 +130,18 @@ a:active {
   box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.5);
 }
 
+.night-savers-logo {
+  -webkit-animation: glow .5s infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  to {
+    -moz-box-shadow: 0 0 10px #fff;
+    -webkit-box-shadow: 0 0 10px #fff;
+    box-shadow: 0px 0px 10px #fff;
+    }
+}
+
 /*===================================*/
 /*===========MUSIC SECTION===========*/
 /*===================================*/
@@ -144,7 +154,15 @@ a:active {
   margin-bottom: 12px;
 }
 
+.music-entry:last-child {
+  margin-bottom: 0px;
+}
+
 .music-entry img {
   float: left;
   margin-right: 8px;
 }
+
+/*==================================*/
+/*===========CODE SECTION===========*/
+/*==================================*/
