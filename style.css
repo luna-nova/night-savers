@@ -44,11 +44,14 @@ section {
 a,
 a:link,
 a:visited,
-a:hover,
 a:active {
-    color: #000000;
+    color: rgb(30, 30, 30);
     text-decoration: none;
     font-weight: normal;
+}
+
+a:hover {
+  color: rgb(221, 221, 221)
 }
 
 /*=======PRESETS=======*/
@@ -60,6 +63,8 @@ a:active {
 #music, #code {
   display: none;
 }
+
+
 
 /*---clearfix---*/
 .group:after {
@@ -162,6 +167,8 @@ a:active {
 .music-entry img {
   float: left;
   margin-right: 12px;
+  width: 100px;
+  height: 100px;
 }
 
 .music-line {
