@@ -161,7 +161,7 @@ a:hover {
 /*===================================*/
 
 #music {
-  min-width: 350px;
+  min-width: 375px;
 }
 
 .music-entry img {
@@ -182,6 +182,6 @@ a:hover {
 /*==================================*/
 
 #code {
-  min-width: 250px;
+  min-width: 375px;
   max-width: 500px;
 }
