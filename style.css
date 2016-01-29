@@ -79,10 +79,10 @@ a:active {
 
 #main-strip {
   margin-top: 100px;
-  max-width: 1500px;
+  max-width: 1400px;
   width: 250px;
   color: black;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .main-section {
